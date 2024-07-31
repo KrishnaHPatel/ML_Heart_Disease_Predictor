@@ -1,10 +1,10 @@
 # Heart Disease Prediction
 
 ## Overview
-This project is based on a Kaggle dataset where we need to predict heart disease using the given training, validation, and test datasets. The following machine learning techniques were applied to achieve the best prediction accuracy: Logistic Regression, K-Nearest Neighbors (KNN), K-Nearest Neighbors with Principal Component Analysis (PCA), and Random Forest. Hyperparameter tuning was performed using Grid Search.
+This project is based on a Kaggle dataset where we need to predict heart disease using the given training, validation, and test datasets. The following machine learning techniques were applied to achieve the best prediction accuracy: Logistic Regression, K-Nearest Neighbors (KNN), K-Nearest Neighbors with Principal Component Analysis (PCA), and Random Forest. 
 
 ## Dataset
-The dataset includes training, validation, and test datasets with features such as age, sex, cholesterol levels, etc., and a label indicating the presence of heart disease.
+The dataset includes training, validation, and test datasets with features such as age, sex, cholesterol levels, etc., and a label indicating the presence of heart disease. The datasets are taken from Kaggle. 
 
 - [Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets)
 
@@ -34,15 +34,15 @@ Run the main script:
 ## Modeling Approach
 
 Data Preprocessing
-  1 - Imputation: Missing values are filled using the mean.
-  2 - Standardization: Features are standardized to have zero mean and unit variance.
-  3 - PCA: Principal Component Analysis is applied to reduce dimensionality.
+- Imputation: Missing values are filled using the mean.
+- Standardization: Features are standardized to have zero mean and unit variance.
+- CA: Principal Component Analysis is applied to reduce dimensionality.
 
 Models Used
-  1 - Logistic Regression
-  2 - K-Nearest Neighbors (KNN)
-  3 - KNN with PCA
-  4 - Random Forest
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- KNN with PCA
+- Random Forest
   
   Hyperparameter Tuning: Grid search is used to find the best hyperparameters for the Random Forest model.
 
